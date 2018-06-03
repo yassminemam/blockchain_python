@@ -2,7 +2,7 @@
 The github repository contains a basic implementation of a blockchain.
 
 # Code implementation contains
-# ============================
+
 # Part 1 - Building a Blockchain
 By creating Blockchain class that has the main params/data_variables and the main functionality related to the blockchain it's self.
 
