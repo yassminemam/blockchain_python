@@ -36,7 +36,7 @@ using that new blockchain use this web based function is_valid to check is_chain
 # Running the app
 Run our app using the ide to be deployed and start testing it.
 
-# Tesring
+# Testing
 through POST Man app for example try to:
 1- http://127.0.0.1:5000/get_chain
 which will initiate the chain and create the first block
