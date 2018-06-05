@@ -40,13 +40,36 @@ using that new blockchain use this web based function is_valid to check is_chain
 Run our app using the ide to be deployed and start testing it.
 
 # Testing
-## Postman
+## [Postman](https://www.getpostman.com/)
 1. `GET http://127.0.0.1:5000/get_chain` which will initiate the chain and create the first block.
 2. `GET http://127.0.0.1:5000/mine_block` which will mine a new block.
 3. `GET http://127.0.0.1:5000/get_chain` which will get the new chain after mining that new block form the previous step.
 4. Repeat mining step 2 for 5 times for example.
 5. `GET http://127.0.0.1:5000/get_chain` again.
 6. `GET http://127.0.0.1:5000/is_valid` to check if your chain is valid.
+
+## [Httpie](https://httpie.org/)
+```bash
+# Install httpie
+$ pip install httpie
+
+$ http http://127.0.0.1:5000/get_chain
+$ http http://127.0.0.1:5000/mine_block
+$ http http://127.0.0.1:5000/get_chain
+# Repeat http http://127.0.0.1:5000/mine_block 5 times.
+$ http http://127.0.0.1:5000/get_chain
+$ http http://127.0.0.1:5000/is_valid
+```
+
+## [Curl](https://curl.haxx.se/)
+```bash
+$ curl http://127.0.0.1:5000/get_chain
+$ curl http://127.0.0.1:5000/mine_block
+$ curl http://127.0.0.1:5000/get_chain
+# Repeat curl http://127.0.0.1:5000/mine_block 5 times.
+$ curl http://127.0.0.1:5000/get_chain
+$ curl http://127.0.0.1:5000/is_valid
+```
 
 # Dependencies
 Works with Python 3.6
