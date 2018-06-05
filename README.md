@@ -75,3 +75,6 @@ $ curl http://127.0.0.1:5000/is_valid
 Works with Python 3.6
 Anaconda's Python distribution contains all the dependencies for the code to run..
 Make sure of installing Flask.
+```bash
+$ pip install -r requirements.txt
+```
