@@ -37,7 +37,11 @@ using that new blockchain use this web based function get_chain to get the full 
 using that new blockchain use this web based function is_valid to check is_chain_valid.
 
 ## Running the app
-Run our app using the ide to be deployed and start testing it.
+```bash
+$ FLASK_APP=blockchain.py flask run
+* Running on http://localhost:5000/
+```
+Or run our app using the ide to be deployed and start testing it.
 
 # Testing
 ## [Postman](https://www.getpostman.com/)
@@ -72,9 +76,9 @@ $ curl http://127.0.0.1:5000/is_valid
 ```
 
 # Dependencies
-Works with Python 3.6
-Anaconda's Python distribution contains all the dependencies for the code to run..
-Make sure of installing Flask.
+[Flask](http://flask.pocoo.org/) is the only required dependency.
+
 ```bash
 $ pip install -r requirements.txt
 ```
+
